@@ -26,16 +26,16 @@ module.exports = {
       blue: {
         d7: "#0B1A2A",
         d6: "#112840",
-        d5: "#1a3f60",
+        d5: "#1d3c51", //*
         d4: "#194b73",
         d3: "#1a578a",
         d2: "#1e6dab",
-        d1: "#2D89C8",
+        d1: "#2D89C8", //blue-400
         DEFAULT: "#54a5dc",
         l1: "#8fc4ea",
         l2: "#c4def3",
-        l3: "#E6F1F9",
-        l4: "#F7FAFD",
+        l3: "#E6F1F9", //blue-100
+        l4: "#F7FAFD", //blue-50
       },
 
       green: {
@@ -43,7 +43,7 @@ module.exports = {
         d3: "#1d5e35",
         d2: "#1f763e",
         d1: "#23964c",
-        DEFAULT: "#31b861",
+        DEFAULT: "#31b861", //green-500
         l1: "#57d182",
         l2: "#8fe6ae",
         l3: "#c0f2d1",
@@ -52,21 +52,21 @@ module.exports = {
       },
 
       navy: {
-        d4: "#183244",
+        d4: "#183244", //navy-blue-1000
         d3: "#1f3648",
         d2: "#273f52",
         d1: "#314c5d",
         DEFAULT: "#3c5667",
-        l1: "#496273",
+        l1: "#496273", //navy-blue-400
         l2: "#5b6f7f",
-        l3: "#72828D",
+        l3: "#72828D", //navy-blue-200
         l4: "#9dabb5",
         l5: "#d4dee6",
       },
 
       red: {
         d4: "#9d1717",
-        d3: "#c81818",
+        d3: "#c81818", //red-500
         d2: "#e22020",
         d1: "#e22020",
         DEFAULT: "#f53e3e",
@@ -85,9 +85,9 @@ module.exports = {
         DEFAULT: "#999999",
         l1: "#ADADAD",
         l2: "#C8C8C8",
-        l3: "#D7D7D7",
-        l4: "#E7E7E7",
-        l5: "#F9FBFA",
+        l3: "#D7D7D7", //white-600
+        l4: "#E7E7E7", //white-500
+        l5: "#F9FBFA", //white-200
         l6: "#FFFFFF",
       },
       white: "#FFFFFF",
