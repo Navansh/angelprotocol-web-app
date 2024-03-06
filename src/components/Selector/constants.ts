@@ -13,7 +13,7 @@ export const styles = {
       selected
         ? "bg-blue-l2  dark:bg-blue-d1"
         : active
-          ? "cursor-pointer bg-blue-l3 dark:bg-blue-d2"
+          ? "cursor-pointer bg-blue-l2 dark:bg-blue-d2"
           : ""
     }`,
   options:

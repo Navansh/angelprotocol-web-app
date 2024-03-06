@@ -34,9 +34,8 @@ module.exports = {
         DEFAULT: "#54a5dc",
         l1: "#8fc4ea",
         l2: "#c4def3",
-        l3: "#B8D9EF",
-        l4: "#E6F1F9",
-        l5: "#F7FAFD",
+        l3: "#E6F1F9",
+        l4: "#F7FAFD",
       },
 
       green: {

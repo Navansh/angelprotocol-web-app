@@ -33,7 +33,7 @@ const tabIdx = (method?: DonationDetails["method"]) => {
 const tabClasses = (selected: boolean) =>
   `${
     selected
-      ? "font-semibold bg-blue-l4 text-navy-d4"
+      ? "font-semibold bg-blue-l3 text-navy-d4"
       : "border border-gray-l4 @md:border-none"
   } text-sm flex items-center gap-2 p-2 @md:px-3 @md:py-4 focus:outline-none @md:w-28 rounded @md:rounded-none`;
 

@@ -84,7 +84,7 @@ export default function Sorter() {
           <Listbox.Option
             key={key}
             value={key}
-            className="text-sm px-3 py-1 hover:bg-blue-l3 dark:hover:text-blue-d3 dark:text-white cursor-pointer"
+            className="text-sm px-3 py-1 hover:bg-blue-l2 dark:hover:text-blue-d3 dark:text-white cursor-pointer"
           >
             {name}
           </Listbox.Option>

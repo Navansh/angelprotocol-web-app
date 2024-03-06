@@ -38,8 +38,8 @@ export default function Card({
         <Image
           loading="lazy"
           src={card_img || logo}
-          className="h-40 w-full object-cover bg-blue-l4 dark:bg-blue-d2"
-          onError={(e) => e.currentTarget.classList.add("bg-blue-l3")}
+          className="h-40 w-full object-cover bg-blue-l3 dark:bg-blue-d2"
+          onError={(e) => e.currentTarget.classList.add("bg-blue-l2")}
         />
         <div className="flex flex-col p-3 pb-4 gap-3">
           {/* nonprofit NAME */}
@@ -85,7 +85,7 @@ function SDG({ num }: { num: UNSDG_NUMS }) {
       <Tooltip anchorRef={ref} content={unsdgs[num].title} />
       <div
         ref={ref}
-        className="whitespace-nowrap bg-blue-l4 hover:bg-blue-l3 dark:bg-blue-d4 hover:dark:bg-blue-d3 px-1 py-1 border border-gray-l4 rounded-lg"
+        className="whitespace-nowrap bg-blue-l3 hover:bg-blue-l2 dark:bg-blue-d4 hover:dark:bg-blue-d3 px-1 py-1 border border-gray-l4 rounded-lg"
       >
         SDG #{num}
       </div>

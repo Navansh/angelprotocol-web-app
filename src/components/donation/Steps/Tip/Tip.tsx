@@ -177,7 +177,7 @@ export default function Tip({
         </>
       )}
 
-      <div className="rounded bg-blue-l5 h-[4.5rem] mt-16 relative">
+      <div className="rounded bg-blue-l4 h-[4.5rem] mt-16 relative">
         <Image src={character} className="absolute left-1 bottom-0" />
         <p className="px-[5.32rem] grid place-items-center text-center h-full text-[0.94rem]">
           Thank you for keeping Better giving free for everyone!
