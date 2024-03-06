@@ -34,7 +34,7 @@ module.exports = {
         DEFAULT: "#54a5dc",
         l1: "#8fc4ea",
         l2: "#c4def3",
-        l3: "#E6F1F9", //blue-100
+        l3: "#E6F1F9", //blue-100, substitue to: #EAF3FA
         l4: "#F7FAFD", //blue-50
       },
 
@@ -66,7 +66,7 @@ module.exports = {
 
       red: {
         d4: "#9d1717",
-        d3: "#c81818", //red-500
+        d3: "#c81818", //red-500, substitute to #C52828
         d2: "#e22020",
         d1: "#e22020",
         DEFAULT: "#f53e3e",
