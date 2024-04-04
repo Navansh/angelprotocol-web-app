@@ -185,9 +185,11 @@ export default function Tip({
         </p>
       </div>
 
-      <p className="text-sm text-navy-l1 mt-6">
-        Assist us in advancing our mission to connect with global organizations
-        and spread our timeless message:{" "}
+      <p className="text-navy-l1 mt-6">
+        <span className="block text-pretty">
+          Assist us in advancing our mission to connect with global
+          organizations and spread our timeless message:
+        </span>
         <span className="font-medium block">Give today, give forever.</span>
       </p>
 
